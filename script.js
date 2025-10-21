@@ -1,4 +1,4 @@
-let move_speed = 5, gravity = 0.5;
+let move_speed = 7, gravity = 0.5;
 let bird = document.querySelector('.bird');
 let img = document.getElementById('bird-1');
 let sound_point = new Audio('sounds effect/point.mp3');
@@ -146,6 +146,7 @@ function play() {
     requestAnimationFrame(move_pipes);
     requestAnimationFrame(create_pipe);
 }
+
 
 
 
